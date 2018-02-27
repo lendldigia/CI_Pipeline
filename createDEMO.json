@@ -1,8 +1,8 @@
 {
-   "name": "GetQuantitiesFromStock_ep_CIPIPELINE",
+   "name": "GetQuantitiesFromStock_ep_CIPIPELINE1",
    "description": "Get Stock for DEMO",
-   "context": "/getQuantitiesFromStock_ep_CIPIPELINE",
-   "version": "1.1.024",
+   "context": "/getQuantitiesFromStock_ep_CIPIPELINE1",
+   "version": "1.1.024.1",
    "provider": "admin",
    "apiDefinition":"{\"paths\":{\"/*\":{\"post\":{\"parameters\":[{\"schema\":{\"type\":\"string\"},\"description\":\"SOAP request.\",\"name\":\"SOAP Request\",\"required\":true,\"in\":\"body\"},{\"description\":\"SOAPAction header for soap 1.1\",\"name\":\"SOAPAction\",\"type\":\"string\",\"required\":false,\"in\":\"header\"}],\"responses\":{\"200\":{\"description\":\"OK\"}},\"x-auth-type\":\"Application & Application User\",\"x-throttling-tier\":\"Unlimited\"}}},\"swagger\":\"2.0\",\"consumes\":[\"text/xml\",\"application/soap+xml\"],\"produces\":[\"text/xml\",\"application/soap+xml\"],\"info\":{\"title\":\"DNA\",\"version\":\"1.0\",\"description\":\"DNA WSDL\"}}",
    "wsdlUri": "http://dil-preprod.dna.fi/soa-infra/services/default/GetQuantitiesFromStockService!1.0/GetQuantitiesFromStock_ep?wsdl",
