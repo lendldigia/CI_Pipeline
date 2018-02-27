@@ -40,10 +40,7 @@ echo ${databasename}'''
     sh '''     
     git config --global user.email "lendl.gomes@digia.com"
     git config --global user.name "lendldigia"
-    git fetch
-        git checkout "master"
     git add createOutput.json
-    git merge "master"
     git commit -am 'Testing if file added'
     git push origin master
     '''
