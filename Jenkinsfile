@@ -38,6 +38,8 @@ echo ${databasename}'''
     stage('Postbuild')
     {
     sh ''' 
+    git config --global user.email "lendl.gomes@digia.com"
+    git config --global user.name "lendldigia"
     git tag -a tagName -m "Test tag"
     git merge master
     git commit -am 'Testing if file added'
