@@ -42,8 +42,8 @@ echo ${databasename}'''
     git config --global user.name "lendldigia"
     git fetch
         git checkout "master"
-git pull
     git add createOutput.json
+    git merge "master"
     git commit -am 'Testing if file added'
     git push origin master
     '''
