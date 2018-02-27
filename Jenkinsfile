@@ -3,6 +3,6 @@
 node {
     stage('Build_test')
     {
-        echo 'Test Jenkins File'
+        echo 'Test Jenkins File edited'
     }
   }
