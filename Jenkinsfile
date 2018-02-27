@@ -1,7 +1,7 @@
 #!/usr/bin/env groovy
 
 node {
-    stage(Test')
+    stage('Test')
     {
         echo 'Running Jenkins file'
     }
