@@ -37,7 +37,10 @@ echo ${databasename}'''
     
     stage('Postbuild')
     {
-    sh ''' git commit -am 'Testing if file added'
+    sh ''' 
+    git tag -a tagName -m "Test tag"
+    git merge master
+    git commit -am 'Testing if file added'
     git push origin master
     '''
     }
